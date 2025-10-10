@@ -1,0 +1,23 @@
+/* ↓↓↓ адаптация для 768px ↓↓↓ ---------------------*/
+@media screen and (max-width: 768px) {
+
+  .navbox {
+    display: none;
+  }
+
+  .burgermenu {
+    display: block;
+    /* .burger */
+    width: 60px;
+    height: 60px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 6px;
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+  }
+
+}
