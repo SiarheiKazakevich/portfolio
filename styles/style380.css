@@ -1,2 +1,66 @@
 /* ↓↓↓ адаптация для 380px ↓↓↓ ---------------------*/
-@media screen and (max-width: 380px) {}
+@media screen and (max-width: 380px) {
+
+  /*--------------hero-----------------*/
+  .hero {
+    width: 100%;
+    max-width: 380px;
+    height: 888px;
+  }
+
+  .leftherosection {
+    display: none;
+  }
+
+  .rightherosection {
+    width: 100%;
+    max-width: 380px;
+    height: 888px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .herorightbox1l {
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 340px;
+    height: 382px;
+    padding: 0px;
+  }
+
+  .bigestboxofrightbox1l {
+    width: 100%;
+    max-width: 340px;
+    height: 322px;
+  }
+
+  .bigtitlebox {
+    /* label */
+    width: 100%;
+    max-width: 340px;
+    height: 128px;
+
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 64px;
+  }
+
+  .smallestboxofrightbox1l {
+    display: none;
+  }
+
+  .herorightbox3r {
+    /* label */
+    width: 100%;
+    max-width: 340px;
+    height: 486px;
+    justify-content: center;
+    gap: 60px;
+    padding: 0px 0px 60px 0px;
+  }
+
+}
