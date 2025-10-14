@@ -63,4 +63,71 @@
     padding: 0px 0px 60px 0px;
   }
 
+  /*--------------about-----------------*/
+  .about {
+    width: 100%;
+    max-width: 380px;
+    height: 1276px;
+  }
+
+  .aboutleftinsidesection {
+    width: 100%;
+    max-width: 340px;
+    height: 552px;
+  }
+
+  .aboutleftphotobox {
+    /* picture */
+    width: 100%;
+    max-width: 340px;
+    height: 340px;
+  }
+
+  .aboutlefttextbox {
+    /* container */
+    width: 100%;
+    max-width: 340px;
+    height: 172px;
+  }
+
+  .aboutlefttext {
+    /* label */
+    width: 100%;
+    max-width: 340px;
+    height: 120px;
+  }
+
+  .aboutcenterinsidesection {
+    /* container */
+    width: 100%;
+    max-width: 340px;
+    height: 120px;
+  }
+
+  .aboutcentertext {
+    /* label */
+    width: 100%;
+    max-width: 340px;
+    height: 120px;
+  }
+
+  .aboutrightinsidesection {
+    /* container */
+    width: 100%;
+    max-width: 340px;
+    height: 404px;
+  }
+
+  .aboutrightphotobox {
+    /* picture */
+    width: 100%;
+    max-width: 340px;
+    height: 340px;
+  }
+
+  .aboutrighttext {
+    width: 100%;
+    max-width: 340px;
+    height: 24px;
+  }
 }
