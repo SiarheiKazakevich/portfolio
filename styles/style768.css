@@ -88,5 +88,97 @@
     height: 294px;
   }
 
-   /*--------------about-----------------*/
+  /*--------------about-----------------*/
+  .about {
+    /* about */
+    width: 100%;
+    max-width: 768px;
+    height: 1932px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 60px 20px 60px 20px;
+  }
+
+  .aboutleftinsidesection {
+    /* container */
+    width: 100%;
+    max-width: 728px;
+    height: 892px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .aboutleftphotobox {
+    /* picture */
+    width: 100%;
+    max-width: 728px;
+    height: 728px;
+  }
+
+  .aboutlefttextbox {
+    /* container */
+    width: 100%;
+    max-width: 728px;
+    height: 124px;
+
+  }
+
+  .aboutlefttext {
+    /* label */
+    width: 100%;
+    max-width: 728px;
+    height: 72px;
+  }
+
+  .aboutcenterinsidesection {
+    /* container */
+    width: 100%;
+    max-width: 728px;
+    height: 48px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .aboutcentertext {
+    /* label */
+    width: 100%;
+    max-width: 728px;
+    height: 48px;
+  }
+
+  .aboutcenterphotobox {
+    display: none;
+  }
+
+  .aboutrightinsidesection {
+    width: 100%;
+    max-width: 728px;
+    height: 792px;
+  }
+
+  .aboutrightphotobox {
+    /* picture */
+    background-image: url('../assets/aboutcenterpicture.png');
+    width: 100%;
+    max-width: 728px;
+    height: 728px;
+  }
+
+  .aboutrighttext {
+    width: 100%;
+    max-width: 728px;
+    height: 24px;
+  }
 }
