@@ -745,3 +745,397 @@ a {
   letter-spacing: 0px;
   text-align: left;
 }
+
+/*--------------portfolio-----------------*/
+.portfolio {
+  background: rgba(34, 34, 34, 1);
+  /* portfolio */
+  width: 100%;
+  max-width: 1440px;
+  height: 914px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 60px 20px 60px 20px;
+}
+
+.insiderportfoliobox {
+  /* container */
+  width: 100%;
+  max-width: 1400px;
+  height: 794px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.portfoliotextbox {
+  /* container */
+  width: 100%;
+  max-width: 360px;
+  height: 100px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.portfoliotitle {
+  /* label */
+  width: 100%;
+  max-width: 174px;
+  height: 40px;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Oswald;
+  /*font-size: 32px;*/
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.portfoliotext {
+  /* label */
+  width: 100%;
+  max-width: 360px;
+  height: 48px;
+
+  color: rgba(255, 255, 255, 1);
+  font-family: Mulish;
+  /*font-size: 16px;*/
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.portfoliogallerybox {
+  /* slider */
+  width: 100%;
+  max-width: 1400px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+.portfoliophotobox1 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 400px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+}
+
+.portfoliophoto1 {
+  background-image: url('../assets/portfoliopicture1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 400px;
+  height: 534px;
+}
+
+.portfoliophotobox2 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 220px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.portfoliophoto2 {
+  background-image: url('../assets/portfoliopicture2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 220px;
+  height: 220px;
+}
+
+.portfoliophotobox3 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 280px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+}
+
+.portfoliophoto3 {
+  background-image: url('../assets/portfoliopicture3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 280px;
+  height: 374px;
+}
+
+.portfoliophotobox4 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 400px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px 0px 120px 0px;
+}
+
+.portfoliophoto4 {
+  background-image: url('../assets/portfoliopicture4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 400px;
+  height: 534px;
+}
+
+.portfoliophotobox5 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 280px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 120px 0px 0px 0px;
+
+}
+
+.portfoliophoto5 {
+  background-image: url('../assets/portfoliopicture5.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 280px;
+  height: 374px;
+}
+
+.portfoliophotobox6 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 220px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.portfoliophoto6 {
+  background-image: url('../assets/portfoliopicture6.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 220px;
+  height: 220px;
+}
+
+.portfoliophotobox7 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 280px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+}
+
+.portfoliophoto7 {
+  background-image: url('../assets/portfoliopicture7.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 280px;
+  height: 374px;
+}
+
+.portfoliophotobox8 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 400px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+
+}
+
+.portfoliophoto8 {
+  background-image: url('../assets/portfoliopicture8.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 400px;
+  height: 534px;
+}
+
+.portfoliophotobox9 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 220px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.portfoliophoto9 {
+  background-image: url('../assets/portfoliopicture9.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 220px;
+  height: 220px;
+}
+
+.portfoliophotobox10 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 280px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+}
+
+.portfoliophoto10 {
+  background-image: url('../assets/portfoliopicture10.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 280px;
+  height: 374px;
+}
+
+.portfoliophotobox11 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 280px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+
+}
+
+.portfoliophoto11 {
+  background-image: url('../assets/portfoliopicture11.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 280px;
+  height: 374px;
+}
+
+.portfoliophotobox12 {
+  /* container */
+  /*width: 100%;
+  max-*/
+  width: 400px;
+  height: 654px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px 0px 120px 0px;
+
+}
+
+.portfoliophoto12 {
+  background-image: url('../assets/portfoliopicture12.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*width: 100%;
+  max-*/
+  width: 400px;
+  height: 534px;
+}
