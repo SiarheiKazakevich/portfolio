@@ -132,5 +132,33 @@
   }
 
   /*--------------portfolio-----------------*/
+  .portfolio {
+    width: 100%;
+    max-width: 380px;
+    height: 938px;
+  }
 
+  .insiderportfoliobox {
+    width: 100%;
+    max-width: 340px;
+    height: 818px;
+  }
+
+  .portfoliotextbox {
+    width: 100%;
+    max-width: 340px;
+    height: 124px;
+  }
+
+  .portfoliotext {
+    width: 100%;
+    max-width: 340px;
+    height: 72px;
+  }
+
+  .portfoliogallerybox {
+    width: 100%;
+    max-width: 340px;
+    height: 654px;
+  }
 }
