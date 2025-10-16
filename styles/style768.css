@@ -181,7 +181,25 @@
     max-width: 728px;
     height: 24px;
   }
-  /*--------------portfolio-----------------*/
 
-  
+  /*--------------portfolio-----------------*/
+  .portfolio {
+    width: 100%;
+    max-width: 768px;
+    height: 914px;
+  }
+
+  .insiderportfoliobox {
+    width: 100%;
+    max-width: 728px;
+    height: 794px;
+  }
+
+  .portfoliogallerybox {
+    width: 100%;
+    max-width: 728px;
+    height: 654px;
+  }
+
+
 }
