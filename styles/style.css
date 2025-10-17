@@ -1139,3 +1139,306 @@ a {
   width: 400px;
   height: 534px;
 }
+
+/*--------------price-----------------*/
+
+.price {
+  background: rgba(255, 255, 255, 1);
+  /* price */
+  width: 100%;
+  max-width: 1440px;
+  height: 736px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 60px 20px 60px 20px;
+
+}
+
+.pricetextbox {
+  /* container */
+  width: 100%;
+  max-width: 1400px;
+  height: 76px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 12px;
+
+}
+
+.pricetitle {
+  /* label */
+  width: 100%;
+  max-width: 256px;
+  height: 40px;
+  color: rgba(34, 34, 34, 1);
+
+  font-family: Oswald;
+  /*font-size: 32px;*/
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.pricetext {
+  /* label */
+  width: 100%;
+  max-width: 1400px;
+  height: 24px;
+  color: rgba(34, 34, 34, 1);
+
+  font-family: Mulish;
+  /*font-size: 16px;*/
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.pricegallerybox {
+  /* container */
+  width: 100%;
+  max-width: 1400px;
+  height: 500px;
+  /* Автолейаут */
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px 40px;
+
+}
+
+/*---------pricecard1-----------------*/
+.pricecard {
+  box-sizing: border-box;
+  border: 1px solid rgba(34, 34, 34, 1);
+  /* priceCard */
+  width: 100%;
+  max-width: 320px;
+  height: 500px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px;
+
+}
+
+.pricecard1topbox {
+  /* container */
+  height: 212px;
+  /* Автолейаут */
+}
+
+.pricecardtopboxflexsize {
+  width: 100%;
+  max-width: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+
+}
+
+.pricecard1topboxtitle {
+  /* label */
+  width: 100%;
+  max-width: 272px;
+  height: 28px;
+  color: rgba(34, 34, 34, 1);
+
+  font-family: Oswald;
+  /*font-size: 20px;*/
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.pricecard1topboxlist {
+  /* list */
+  height: 136px;
+}
+
+.pricecardtopboxlistflexsize {
+  width: 100%;
+  max-width: 272px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+
+}
+
+.custom-list {
+  list-style: none;
+  /* убираем стандартные маркеры */
+  padding: 0;
+  margin: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 12px;
+  /* расстояние от квадрата до текста */
+  /*margin-bottom: 10px;*/
+}
+
+.custom-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  /* позиция квадрата */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  /* размер квадрата */
+  height: 6px;
+  background-color: #333;
+  /* цвет квадрата */
+}
+
+.point {
+  /* label */
+  width: 100%;
+  max-width: 260px;
+  height: 24px;
+  color: rgba(34, 34, 34, 1);
+
+  font-family: Mulish;
+  /*font-size: 16px;*/
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.pricecard1topboxtext {
+  /* label */
+  width: 100%;
+  max-width: 272px;
+  height: 24px;
+  color: rgba(34, 34, 34, 1);
+
+  font-family: Oswald;
+  /*font-size: 16px;*/
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.pricecard1downbox {
+  /* container */
+  height: 92px;
+}
+
+.pricecarddownboxflexsize {
+  width: 100%;
+  max-width: 272px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+
+}
+
+.pricecard1downboxtext {
+  height: 20px;
+}
+
+.pricecarddownboxfontsize {
+  /* label */
+  width: 100%;
+  max-width: 272px;
+  color: rgba(34, 34, 34, 1);
+  font-family: Mulish;
+  /*font-size: 16px;*/
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+  word-spacing: 0px;
+}
+
+.pricecard1downboxbutton {
+  /* button */
+  background: rgba(34, 34, 34, 1);
+  width: 100%;
+  max-width: 272px;
+  height: 60px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Oswald;
+  /*font-size: 16px;*/
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+/*---------pricecard2-----------------*/
+.pricecard2topbox {
+  height: 268px;
+
+}
+
+.pricecard2topboxlist {
+  /* list */
+  height: 192px;
+}
+
+.pricecard2downbox {
+
+  height: 112px;
+}
+
+.pricecard2downboxtext {
+  height: 40px;
+}
+
+/*---------pricecard3-----------------*/
+.pricecard3topbox {
+  height: 296px;
+}
+
+.pricecard3topboxlist {
+  /* list */
+  height: 220px;
+}
+
+/*---------pricecard4-----------------*/
