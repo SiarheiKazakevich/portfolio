@@ -202,5 +202,37 @@
   }
 
   /*--------------price-----------------*/
+  .price {
+    width: 100%;
+    max-width: 768px;
+    height: 1256px;
+  }
+
+  .pricetextbox {
+    width: 100%;
+    max-width: 728px;
+    height: 76px;
+  }
+
+  .pricetext {
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .pricegallerybox {
+    /* container */
+    width: 100%;
+    max-width: 728px;
+    height: 1020px;
+    /* Автолейаут */
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 20px;
+
+  }
+
 
 }
