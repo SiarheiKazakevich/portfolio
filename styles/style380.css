@@ -162,5 +162,29 @@
     height: 654px;
   }
 
-   /*--------------price-----------------*/
+  /*--------------price-----------------*/
+  .price {
+    width: 100%;
+    max-width: 380px;
+    height: 2320px;
+  }
+
+  .pricetextbox {
+    width: 100%;
+    max-width: 340px;
+    height: 100px;
+  }
+
+  .pricetext {
+    width: 100%;
+    max-width: 340px;
+    height: 48px;
+  }
+
+  .pricegallerybox {
+    width: 100%;
+    max-width: 340px;
+    height: 2060px;
+  }
+
 }
