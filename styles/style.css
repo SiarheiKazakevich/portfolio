@@ -1443,3 +1443,167 @@ a {
 
 /*---------pricecard4-----------------*/
 /*----0---*/
+
+/*---------footer-----------------*/
+.footer {
+  /* footer */
+  width: 100%;
+  max-width: 1440px;
+  height: 268px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.footertitletext {
+  /* container */
+  width: 100%;
+  max-width: 1440px;
+  height: 28px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+  color: rgba(34, 34, 34, 1);
+
+  font-family: Oswald;
+  /*font-size: 20px;*/
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footerwraperinputsbox {
+  /* container */
+  width: 100%;
+  max-width: 1440px;
+  height: 60px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0px 20px 0px 20px;
+
+}
+
+.footerinputname {
+  box-sizing: border-box;
+  border: 1px solid rgba(34, 34, 34, 1);
+  background: rgba(255, 255, 255, 1);
+  /* input */
+  width: 100%;
+  max-width: 380px;
+  height: 60px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 12px 0px 12px;
+
+}
+
+.footerinputtextsize {
+  color: rgba(152, 152, 152, 1);
+
+  font-family: Oswald;
+  /*font-size: 16px;*/
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footerinputphone {
+  color: rgba(34, 34, 34, 1);
+}
+
+.footerbookbutton {
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  background: rgba(34, 34, 34, 1);
+  /* button */
+  width: 100%;
+  max-width: 200px;
+  height: 60px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.footerwrapersocialboxes {
+  background: rgba(34, 34, 34, 1);
+  /* container */
+  width: 100%;
+  max-width: 1440px;
+  height: 100px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.socialboxsize {
+  /* .item */
+
+  height: 60px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+
+  color: rgba(255, 255, 255, 1);
+  font-family: Oswald;
+  /*font-size: 16px;*/
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.instagrambox {
+  width: 100%;
+  max-width: 110px;
+}
+
+.telegrambox {
+  width: 100%;
+  max-width: 102px;
+}
+
+.whatsappbox {
+  width: 100%;
+  max-width: 106px;
+}
+.europebox{
+  width: 100%;
+  max-width: 87px;
+}
+.phonenumberbox{
+  width: 100%;
+  max-width: 136px;
+}
