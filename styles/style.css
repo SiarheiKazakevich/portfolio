@@ -1444,6 +1444,169 @@ a {
 /*---------pricecard4-----------------*/
 /*----0---*/
 
+/*---------faq-----------------*/
+.faq {
+  background: rgba(34, 34, 34, 1);
+  /* faq */
+  width: 100%;
+  max-width: 1440px;
+  height: 724px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 60px 20px 60px 20px;
+
+}
+
+.faqtitlebox {
+  /* container */
+  width: 100%;
+  max-width: 680px;
+  height: 76px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+
+}
+
+.faqtitle {
+  /* label */
+  width: 100%;
+  max-width: 680px;
+  height: 40px;
+
+  color: rgba(255, 255, 255, 1);
+  font-family: Oswald;
+  /*font-size: 32px;*/
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.faqundertitletext {
+  /* label */
+  width: 100%;
+  max-width: 680px;
+  height: 24px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Mulish;
+  /*font-size: 16px;*/
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.faqaccordionbox {
+  /* container */
+  width: 100%;
+  max-width: 680px;
+  height: 604px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.details {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  /* accordion */
+  width: 100%;
+  max-width: 680px;
+  height: 154px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+
+  transition: all 0.3s ease;
+}
+
+.summary {
+  /* question */
+  width: 680px;
+  height: 64px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px 20px 0px;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Oswald;
+  /*font-size: 20px;*/
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Убираем стандартный треугольник браузера */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Добавляем наш плюс */
+summary::after {
+  content: "+";
+  position: absolute;
+  right: 4px;
+  font-size: 42px;
+  transition: transform 0.3s;
+}
+
+/* Меняем плюс на минус при открытии */
+details[open] summary::after {
+  content: "−";
+  transform: rotate(0deg);
+}
+
+.accordiontextsize {
+  width: 100%;
+  max-width: 680px;
+  height: 92px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 417px;
+  padding: 0px 0px 20px 0px;
+
+  color: rgba(255, 255, 255, 1);
+  font-family: Mulish;
+  /*font-size: 16px;*/
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
 /*---------footer-----------------*/
 .footer {
   /* footer */
@@ -1456,7 +1619,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 0px;
+  padding: 40px 0px 0px 0px;
   background: rgba(255, 255, 255, 1);
 }
 
@@ -1599,11 +1762,13 @@ a {
   width: 100%;
   max-width: 106px;
 }
-.europebox{
+
+.europebox {
   width: 100%;
   max-width: 87px;
 }
-.phonenumberbox{
+
+.phonenumberbox {
   width: 100%;
   max-width: 136px;
 }
