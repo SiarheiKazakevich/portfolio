@@ -238,4 +238,66 @@
     height: 164px;
   }
 
+  /*---------footer-----------------*/
+  .footer {
+    width: 100%;
+    max-width: 380px;
+    height: 644px;
+    padding: 40px 0px 0px 0px;
+  }
+
+  .footertitletext {
+    /* container */
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .footerwraperinputsbox {
+    width: 100%;
+    max-width: 380px;
+    height: 196px;
+    flex-direction: column;
+  }
+
+  .footerinputname {
+    width: 100%;
+    max-width: 340px;
+    padding: 0px 12px 0px 12px;
+    /*padding: 0px 7px 0px 10px;*/
+  }
+
+  .footerbookbutton {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  /*---------footer!!-----------------*/
+  .labelname {
+    width: 71px;
+  }
+
+  /*---------footer!!-----------------*/
+
+  .footerwrapersocialboxes {
+    width: 100%;
+    max-width: 380px;
+    height: 340px;
+    flex-direction: column;
+  }
+
+  .instagrambox,
+  .telegrambox,
+  .whatsappbox,
+  .europebox,
+  .phonenumberbox {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .socialboxsize {
+    width: 100%;
+    max-width: 340px;
+  }
+
+
 }
