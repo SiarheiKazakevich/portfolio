@@ -187,4 +187,55 @@
     height: 2060px;
   }
 
+  /*---------faq-----------------*/
+  .faq {
+    width: 100%;
+    max-width: 380px;
+    height: 976px;
+  }
+
+  .faqtitlebox {
+    width: 100%;
+    max-width: 340px;
+    height: 140px;
+  }
+
+  .faqtitle {
+    width: 100%;
+    max-width: 340px;
+    height: 80px;
+  }
+
+  .faqundertitletext {
+    /* label */
+    width: 100%;
+    max-width: 340px;
+    height: 48px;
+  }
+
+  .faqaccordionbox {
+    /* container */
+    width: 100%;
+    max-width: 340px;
+    height: 676px;
+  }
+
+  .details {
+    width: 100%;
+    max-width: 340px;
+    height: 228px;
+  }
+
+  .summary {
+    /* question */
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .accordiontextsize {
+    width: 100%;
+    max-width: 340px;
+    height: 164px;
+  }
+
 }
