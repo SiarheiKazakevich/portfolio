@@ -284,4 +284,17 @@
   }
 
   /*---------footer-----------------*/
+  .footerwraperinputsbox {
+    width: 100%;
+    max-width: 768px;
+  }
+
+  .footerinputname {
+    width: 380px;
+    padding: 0px 7px 0px 10px;
+  }
+
+  .labelname {
+    width: 71px;
+  }
 }
