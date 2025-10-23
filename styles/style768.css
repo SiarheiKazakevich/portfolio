@@ -234,5 +234,54 @@
 
   }
 
+  /*---------faq-----------------*/
+  .faq {
+    width: 100%;
+    max-width: 768px;
+    height: 840px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+  }
 
+  .faqtitlebox {
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .faqtitle {
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .faqundertitletext {
+    /* label */
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .faqaccordionbox {
+    /* container */
+    width: 100%;
+    max-width: 728px;
+    height: 604px;
+  }
+
+  .details {
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .summary {
+    /* question */
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .accordiontextsize {
+    width: 100%;
+    max-width: 728px;
+  }
+
+  /*---------footer-----------------*/
 }

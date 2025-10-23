@@ -1539,7 +1539,8 @@ a {
 
 .summary {
   /* question */
-  width: 680px;
+  width: 100%;
+  max-width: 680px;
   height: 64px;
   /* Автолейаут */
   display: flex;
