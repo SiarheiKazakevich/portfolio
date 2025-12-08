@@ -189,6 +189,10 @@ a {
   /*border: 1px solid white;*/
 }
 
+.menunavbox {
+  display: none;
+}
+
 /*--------------hero-----------------*/
 .hero {
   background: rgba(34, 34, 34, 1);
